@@ -1,23 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { MdEmojiEvents } from "react-icons/md";
+import { VscSymbolEvent } from "react-icons/vsc";
+import { PiStudentLight } from "react-icons/pi";
+import coffee from "./image/coffee1.jpeg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="wrapper">
+        <div className="container">
+          <header className="header">
+            <p className="be_seen">WANT TO BE SEEN AT THE CAMPUS ?</p>
+            <div className="option_wrapper">
+              <div className="options">
+                <div className="for">FOR:</div>
+                <div className="ad_options">
+                  <div className="ad_icon_wrapper">
+                    <div className="ad_summer_job">
+                      <div className="ad_icon">
+                        <PiStudentLight size={27} />
+                      </div>
+                      <p>summer jobs</p>
+                    </div>
+                    <div className="ad_events">
+                      <div className="ad_icon">
+                        <VscSymbolEvent size={27} />
+                      </div>
+                      <p>student events</p>
+                    </div>
+                    <div className="ad_summer_job">
+                      <div className="ad_icon">
+                        <MdEmojiEvents size={27} />
+                      </div>
+                      <p>hackathons</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="reach_out">
+              Only one step left on the smooth advert road! Fill out a form and
+              let's make magic happen!
+            </p>
+          </header>
+          <form action="" className="form">
+            <input
+              type="text"
+              className="company_name"
+              placeholder="Enter company name"
+            />
+            <textarea
+              className="ad_description"
+              placeholder="What do you want to tell students right now?"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button className="btn">LAUNCH YOUR ADVERT</button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
