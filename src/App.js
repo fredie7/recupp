@@ -38,8 +38,9 @@ function App() {
               </div>
             </div>
             <p className="reach_out">
-              You are one step away on to reaching out to your target audience -
-              Let's make the magic happen!
+              {/* You are one step away on to reaching out to your target audience - */}
+              Do fill in fill-in your contact details, make your request - Let's
+              make the magic happen!
             </p>
           </header>
           <form action="" className="form">
@@ -47,6 +48,11 @@ function App() {
               type="text"
               className="company_name"
               placeholder="Enter company name"
+            />
+            <input
+              type="text"
+              className="company_email"
+              placeholder="Enter company email"
             />
             <textarea
               className="ad_description"
