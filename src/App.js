@@ -2,7 +2,6 @@ import "./App.css";
 import { MdEmojiEvents } from "react-icons/md";
 import { VscSymbolEvent } from "react-icons/vsc";
 import { PiStudentLight } from "react-icons/pi";
-import coffee from "./image/coffee1.jpeg";
 
 function App() {
   return (
