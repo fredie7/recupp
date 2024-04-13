@@ -39,7 +39,7 @@ function App() {
             </div>
             <p className="reach_out">
               You are one step away on to reaching out to your target audience -
-              Let's make magic happen!
+              Let's make the magic happen!
             </p>
           </header>
           <form action="" className="form">
