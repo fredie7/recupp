@@ -126,7 +126,7 @@
   /* background-color: red; */
 }
 .container {
-  background-color: purple;
+  /* background-color: purple; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
