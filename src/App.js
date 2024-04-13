@@ -38,8 +38,8 @@ function App() {
               </div>
             </div>
             <p className="reach_out">
-              Only one step left on the smooth advert road! Fill out a form and
-              let's make magic happen!
+              You are one step away on to reaching out to your target audience -
+              Let's make magic happen!
             </p>
           </header>
           <form action="" className="form">
