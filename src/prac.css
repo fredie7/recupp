@@ -9,8 +9,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  background-color: rgba(89, 182, 248, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   overflow: hidden;
 }
@@ -28,7 +27,7 @@
       Roboto "Helvetica Neue", Arial, sans-serif; */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* background-image: url("./image/coffee2.jpeg"); */
+  background-image: url("./image/coffee2.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -59,7 +58,7 @@
 .options {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 15px;
   font-weight: 400;
   margin-top: 20px;
@@ -71,8 +70,6 @@
 }
 .ad_options {
   flex-basis: 35%;
-  /* background-color: aqua; */
-  /* width: 100px; */
 }
 
 .ad_summer_job {
@@ -84,14 +81,12 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
-  /* background-color: aqua; */
 }
 .ad_summer_job {
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
-
 .ad_icon {
   margin-top: 15px;
 }
@@ -101,7 +96,7 @@
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .form {
   display: flex;
@@ -213,10 +208,6 @@
   }
   .for {
     font-size: 30px;
-  }
-  .stud_event {
-    /* margin-left: 20px; */
-    /* width: 50px; */
   }
 }
 

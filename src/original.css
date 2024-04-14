@@ -9,8 +9,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  background-color: rgba(89, 182, 248, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   overflow: hidden;
 }
@@ -28,16 +27,16 @@
       Roboto "Helvetica Neue", Arial, sans-serif; */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* background-image: url("./image/coffee2.jpeg"); */
+  background-image: url("./image/coffee2.jpeg");
   background-size: cover;
   background-position: center;
 }
 .be_seen {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 .container {
   width: 100%;
@@ -59,20 +58,17 @@
 .options {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 15px;
   font-weight: 400;
   margin-top: 20px;
   width: 90%;
-  height: 120px;
 }
 .for {
   font-weight: bold;
 }
 .ad_options {
   flex-basis: 35%;
-  /* background-color: aqua; */
-  /* width: 100px; */
 }
 
 .ad_summer_job {
@@ -84,14 +80,12 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
-  /* background-color: aqua; */
 }
 .ad_summer_job {
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
-
 .ad_icon {
   margin-top: 15px;
 }
@@ -101,13 +95,12 @@
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .form {
   display: flex;
   flex-direction: column;
-  /* margin-top: 40px; */
-  margin-top: 10px;
+  margin-top: 40px;
   height: 200px;
 }
 .company_name {
@@ -149,60 +142,6 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
-.box {
-  display: flex;
-  /* background-color: aqua; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box .inner {
-  width: 400px;
-  height: 80px;
-  line-height: 100px;
-  font-size: 4em;
-  font-family: sans-serif;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.box .inner:first-child {
-  /* background-color: indianred; */
-  background-color: rgb(96, 33, 33);
-  color: darkred;
-  transform-origin: right;
-  transform: perspective(100px) rotateY(-15deg);
-}
-
-.box .inner:last-child {
-  /* background-color: lightcoral; */
-  background-color: brown;
-  color: antiquewhite;
-  transform-origin: left;
-  transform: perspective(100px) rotateY(15deg);
-}
-
-.box .inner span {
-  position: absolute;
-  animation: marquee 5s linear infinite;
-}
-
-.box .inner:first-child span {
-  animation-delay: 2.5s;
-  left: -100%;
-}
-
-@keyframes marquee {
-  from {
-    left: 100%;
-  }
-
-  to {
-    left: -100%;
-  }
-}
 
 @media screen and (min-width: 760px) {
   .container {
@@ -213,10 +152,6 @@
   }
   .for {
     font-size: 30px;
-  }
-  .stud_event {
-    /* margin-left: 20px; */
-    /* width: 50px; */
   }
 }
 
